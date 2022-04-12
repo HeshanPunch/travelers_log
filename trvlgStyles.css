@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container > div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;  
+    width: 35rem;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 3rem;
+    line-height:4rem;
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: #330066;
+    
+}
+
+#show-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    
+}
+
+
+body{
+    margin: 0px;
+    background-image: url(photos/image_processing20201122-5607-20l4w6.png);
+    background-size:cover;
+}
+
+h1{
+    font-family: 'Bungee', cursive;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+img{
+    width: auto;
+    height: 275px;
+    margin: 20px;
+    background-color: #330066;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 5px 30px 2px black;
+}
+
+.img-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+font-family: 'Bungee', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
